@@ -1,6 +1,6 @@
 body {
   margin: 0;
-
+font-family: 'Open Sans', sans-serif;
 }
 header {
   height: 27px;
@@ -35,6 +35,8 @@ header {
   font-family: "Font Awesome 5 Free", "Open Sans", Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
+  margin-top: 16px;
+  border: none;
 }
 .bus-time {
   height: 54px;
@@ -43,6 +45,7 @@ header {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   border-bottom: 1px solid #DADADA;
+  align-items: center;
 
 }
 
@@ -72,4 +75,8 @@ header {
 }
 #time {
   font-size:12px;
+}
+#title {
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
